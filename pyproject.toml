@@ -1,0 +1,13 @@
+[project]
+name = "PODF"
+version = "0.0.2"
+description = "A steamlit port of pdf-to-podcast from Stephan Fitzpatrick"
+dependencies = [
+  "streamlit",
+  "openai",
+  "promptic",
+  "pydantic",
+  "pypdf",
+  "tenacity",
+]
+requires-python = ">=3.12"
